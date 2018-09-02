@@ -1,0 +1,122 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+
+/* login form  */
+.loginDiv{
+  margin:10% auto ;
+  background: rgb(255, 255, 255);
+  width:100%;
+  max-width:320px;
+  padding:30px 10px;
+  text-align: center; 
+  box-shadow: 1px 1px 10px 1px rgb(163, 163, 163);
+  font-family: "Trebuchet MS",Arial, Helvetica, sans-serif;
+}
+.loginDiv h1{
+  text-align:center;
+}
+.loginDiv input{
+  width:100%;
+  max-width:270px;
+  height:30px;
+  border-radius: 10px;
+  border:1px solid rgb(180, 180, 180);
+  margin-left:10px;
+  padding-left:20px;
+  outline:none;   
+}
+.loginDiv button{
+  border:none;
+  width:290px;
+  padding:14px 0px;
+  border-radius:50px;
+  outline:none;
+  margin-left:10px;
+  background: #699eff;
+  color:white;
+  font-weight: bold;
+  font-size: 18px;
+}
+.loginDiv button:active{
+  background: #227aff;
+}
+
+.addBtn{
+  position: absolute;
+  right:50px;
+  bottom:40px;
+  font-size:30px;
+  border:none;
+  background: #cfe9cf;
+  width:70px;
+  height:70px;
+  border-radius: 50%;
+  outline:none;
+  box-shadow: 2px 2px 2px 1px rgb(194, 192, 192);
+}
+.addBtn:active{
+  background:#9dcf9d;
+}
+
+.employeeForm input{
+  width:90%;
+  height: 40px;
+  margin-top:10px;
+  border-radius: 10px;
+  border:1px solid rgb(211, 211, 211);
+  padding-left:10px;
+
+}
+.employeeForm input:last-child{
+  margin-bottom:20px;
+}
+
+.submitBtn{
+  font-size:20px;
+  border:none;
+  background: #cfe9cf;
+  padding:10px;
+  border-radius: 20px;
+  width:90%;
+  outline:none;
+}
+
+.submitBtn:active{
+  background:#9dcf9d;
+}
+
+
+
+
+
+
+
+
+
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
